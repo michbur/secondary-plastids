@@ -1,7 +1,9 @@
 ---
 title: "Predictors of proteins directed to atypical plastids"
 author: "Michał Burdukiewicz"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
