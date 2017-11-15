@@ -1,0 +1,36 @@
+---
+title: "Predictors of proteins directed to atypical plastids"
+author: "Michał Burdukiewicz"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Secondary plastids
+
+Software for prediction of proteins targeted to secondary plastids (mostly based on the ASAFAP motif):
+
+ - HECTAR (2008) (https://doi.org/10.1186/1471-2105-9-393) - only heterokonts,
+ - ASAFind (2015) (https://doi.org/10.1111/tpj.12734) - all types of secondary plastids.
+
+## Apicoplast
+
+Software for prediction of only apicoplast-targeted and related proteins:
+
+ - ApicoAMP (2013) (https://doi.org/10.1016/j.mimet.2013.09.017) - apicoplast-targeted transmembrane proteins.
+ - ApicoAP (2012) (https://doi.org/10.1371/journal.pone.0036598) - apicoplast-targeted proteins.
+ - PlasmoAP (2003) (https://doi.org/10.1126/science.1078599) - apicoplast-targeted proteins.
+ - PATS (2001) (https://doi.org/10.1016/S0378-1119(01)00776-4) - apicoplast-targeted proteins.
+
+# Chromatophores
+
+*Paulinella chromatophora* obtained 90–140 Ma ago photosynthetic organelles named chromatophores - very early stage of host-organellum integration.
+
+ - unnamed algorithm (2017) (https://doi.org/10.1016/j.cub.2017.08.010) - HMM/SVM-based prediction.
+
+# Data sources
+
+ - Thalassiosira pseudonana (https://doi.org/10.1371/journal.pone.0074483)
